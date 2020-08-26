@@ -10,60 +10,63 @@
 <body>
   <div class="container">
     <div>
-        <header>
+        <header class="text-center col-12">
           <h1><b>The Ride</b></h1>
         </header>
         <a class="link" href="index.html"> <button class="button"> Go Back</button></a>
      </div>
   </div>
-  <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4"><strong>Email</strong></label>
-        <input type="email" class="form-control" id="inputEmail4">
+<div class="middle">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4"><strong>Email</strong></label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4"><strong>Password</strong></label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4"><strong>Password</strong></label>
-        <input type="password" class="form-control" id="inputPassword4">
+      <div class="form-group">
+        <label for="inputAddress"><strong>Address</strong></label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
       </div>
-    </div>
-    <div class="form-group">
-      <label for="inputAddress"><strong>Address</strong></label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-      <label for="inputAddress2"><strong>Address 2</strong></label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity"><strong>City</strong></label>
-        <input type="text" class="form-control" id="inputCity">
+      <div class="form-group">
+        <label for="inputAddress2"><strong>Address 2</strong></label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
       </div>
-      <div class="form-group col-md-4">
-        <label for="inputState"><strong>State</strong></label>
-        <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity"><strong>City</strong></label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState"><strong>State</strong></label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip"><strong>Zip</strong></label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
       </div>
-      <div class="form-group col-md-2">
-        <label for="inputZip"><strong>Zip</strong></label>
-        <input type="text" class="form-control" id="inputZip">
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
       </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
-
-
-
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<!--/*<footer>
+  <p> &copy; Leander joseph </p>
+</footer>-->
 </<body>
 </html>
